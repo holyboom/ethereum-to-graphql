@@ -18,14 +18,14 @@
   "author": "Angello Pozo",
   "license": "MIT",
   "dependencies": {
-    "graphql": "^0.10.5",
-    "truffle-contract": "^2.0.4",
+    "graphql": "^0.11.7",
+    "truffle-contract": "^3.0.0",
     "web3": "^0.19.0"
   },
   "peerDependencies": {
-    "graphql": "^0.10.5"
+    "graphql": "^0.11.7"
   },
   "devDependencies": {
-    "jest": "^20.0.4"
+    "jest": "^21.2.1"
   }
 }
