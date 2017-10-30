@@ -1,8 +1,11 @@
 {
   "name": "ethereum-to-graphql-client-example",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
+  "author": "katopz@gmail.com",
+  "license": "MIT",
   "dependencies": {
+    "graphql-request": "^1.4.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-scripts": "1.0.14"

@@ -9,9 +9,10 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "katopz",
+  "author": "katopz@gmail.com",
   "license": "MIT",
   "dependencies": {
+    "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11"
   }
