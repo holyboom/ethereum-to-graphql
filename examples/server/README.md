@@ -6,7 +6,7 @@ Working example for `ethereum-to-graphql`
 testrpc
 ```
 > Expected
-``shell
+```shell
 EthereumJS TestRPC v4.1.3 (ganache-core: 1.1.3)
 
 Available Accounts
