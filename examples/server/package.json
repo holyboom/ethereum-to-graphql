@@ -1,5 +1,5 @@
 {
-  "name": "ethereum-to-graphql-example",
+  "name": "ethereum-to-graphql-server-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",

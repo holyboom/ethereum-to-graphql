@@ -4,6 +4,8 @@
   "description": "Create a graphql server to Ethereum smart contracts",
   "main": "lib/index.js",
   "scripts": {
+    "build": "truffle compile",
+    "deploy": "truffle migrate --reset",
     "test": "jest"
   },
   "keywords": [
