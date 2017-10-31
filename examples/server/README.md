@@ -1,8 +1,12 @@
 # ethereum-to-graphql-server-example
 Working example for `ethereum-to-graphql`
 
-## Run test server
+## Run `testrpc` server
 ```shell
+# Install
+npm install -g ethereumjs-testrpc
+
+# Run
 testrpc
 ```
 > Expected
@@ -23,21 +27,22 @@ Available Accounts
 (9) 0xd9451969347e02b5ac7e43a0621a254a37918fff
 ```
 
-## Run GraphQL Server
+## Deploy to `testrpc`
 ```shell
-# Solidity
 git clone https://github.com/katopz/ethereum-to-graphql.git
-cd ethereum-to-graphql/examples/server
-npm i
+cd ethereum-to-graphql
+npm install
 npm run deploy
+```
 
-# GraphQL
-npm run start
+## Run `GraphQL` Server
+```shell
+npm run server
 open http://localhost:4000/graphql
 ```
 
-## Example : getBalanceInEth
-> Use `addr` from above.
+## Example : `getBalanceInEth`
+> Use any `addr` from above.
 ```shell
 {
   getBalanceInEth(addr:"0x62dfc32cd1a3883f1de8f3a3c96105638912bdd9"){
@@ -58,4 +63,9 @@ open http://localhost:4000/graphql
     }
   }
 }
+```
+
+## Run web client example
+```
+npm run client
 ```

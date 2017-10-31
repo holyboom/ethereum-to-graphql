@@ -6,7 +6,8 @@
   "scripts": {
     "build": "truffle compile",
     "deploy": "truffle migrate",
-    "server": "cd ./examples/server && npm i && npm start",
+    "server": "cd ./examples/server && npm install && npm start",
+    "client": "cd ./examples/client && yarn install && yarn start",
     "test": "jest"
   },
   "keywords": [
