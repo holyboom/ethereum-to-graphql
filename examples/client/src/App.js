@@ -15,7 +15,7 @@ class App extends React.Component {
     // With this query
     const query = `
     {
-      getBalanceInEth(addr: "0x62dfc32cd1a3883f1de8f3a3c96105638912bdd9") {
+      getBalanceInEth(addr: "0x48b961d4764cb879514f9f4ee2c051bd31edb203") {
         value {
           string
         }

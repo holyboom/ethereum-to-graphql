@@ -27,12 +27,12 @@ Available Accounts
 ```shell
 # Solidity
 git clone https://github.com/katopz/ethereum-to-graphql.git
-cd ethereum-to-graphql
+cd ethereum-to-graphql/examples/server
 npm i
-npm deploy
+npm run deploy
 
 # GraphQL
-cd examples
+npm run start
 open http://localhost:4000/graphql
 ```
 

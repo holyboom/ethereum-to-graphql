@@ -5,7 +5,8 @@
   "main": "lib/index.js",
   "scripts": {
     "build": "truffle compile",
-    "deploy": "truffle migrate --reset",
+    "deploy": "truffle migrate",
+    "server": "cd ./examples/server && npm i && npm start",
     "test": "jest"
   },
   "keywords": [
@@ -22,7 +23,7 @@
   "dependencies": {
     "graphql": "^0.11.7",
     "truffle-contract": "^3.0.0",
-    "web3": "^0.19.0"
+    "web3": "^1.0.0-beta.24"
   },
   "peerDependencies": {
     "graphql": "^0.11.7"
