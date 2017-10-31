@@ -7,7 +7,8 @@
     "build": "truffle compile",
     "deploy": "truffle migrate",
     "server": "cd ./examples/server && npm install && npm start",
-    "client": "cd ./examples/client && yarn install && yarn start",
+    "client": "cd ./examples/client/vanilla && yarn install && yarn start",
+    "client-react": "cd ./examples/client/react && yarn install && yarn start",
     "test": "jest"
   },
   "keywords": [

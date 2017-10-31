@@ -1,0 +1,17 @@
+{
+  "name": "ethereum-to-graphql-client-vanilla-example",
+  "version": "1.0.0",
+  "private": true,
+  "author": "katopz@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "graphql-request": "^1.4.0",
+    "react-scripts": "1.0.14"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
