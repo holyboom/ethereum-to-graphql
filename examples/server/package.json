@@ -6,7 +6,7 @@
   "scripts": {
     "build": "truffle compile",
     "deploy": "truffle migrate",
-    "start": "node index.js",
+    "start": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "katopz@gmail.com",
@@ -15,5 +15,8 @@
     "cors": "^2.8.4",
     "express": "^4.16.2",
     "express-graphql": "^0.6.11"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
   }
 }
