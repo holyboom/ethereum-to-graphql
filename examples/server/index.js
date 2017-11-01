@@ -4,7 +4,7 @@ const graphql = require('graphql')
 
 const app = express()
 const MetaCoinArtifact = require('../../build/contracts/Metacoin')
-const url = 'http://localhost:8545'
+const url = 'http://localhost:9545'
 
 const { genGraphQlProperties } = require('../../lib')
 const { schema, rootValue } = genGraphQlProperties({ artifacts: [MetaCoinArtifact], provider: { url }, graphql })
