@@ -43,3 +43,16 @@ To run tests, you will need to have [truffle](https://github.com/trufflesuite/tr
 3. Terminal Window 2: `cd <this project>`
 4. Terminal Window 2: `truffle migrate`
 5. Terminal Window 2: `npm test`
+
+# Gotcha
+> FYI : use `"web3": "0.19.0"` to not breaking thing
+```
+testrpc
+yarn install
+yarn build
+yarn deploy
+yarn test
+yarn server
+yarn client-react
+open http://localhost:4000/graphql
+```
