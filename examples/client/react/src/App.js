@@ -1,10 +1,17 @@
 import React from 'react'
 import { request } from 'graphql-request'
+import Web3 from 'web3'
 
 class App extends React.Component {
   constructor (props) {
     super(props)
-    this.state = {}
+
+    this.web3 = new Web3()
+    this.web3.setProvider(new Web3.providers.HttpProvider('http://localhost:9545'))
+
+    this.state = {
+      coinbase: this.web3.eth.coinbase
+    }
   }
 
   // When view is ready
@@ -15,7 +22,7 @@ class App extends React.Component {
     // With this query
     const query = `
     {
-      getBalanceInEth(addr: "0x48b961d4764cb879514f9f4ee2c051bd31edb203") {
+      getBalanceInEth(addr: "${this.state.coinbase}") {
         value {
           string
         }
