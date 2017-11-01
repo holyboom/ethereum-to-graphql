@@ -1,32 +1,8 @@
 {
   "contractName": "ConvertLib",
-  "abi": [
-    {
-      "constant": false,
-      "inputs": [
-        {
-          "name": "amount",
-          "type": "uint256"
-        },
-        {
-          "name": "conversionRate",
-          "type": "uint256"
-        }
-      ],
-      "name": "convert",
-      "outputs": [
-        {
-          "name": "convertedAmount",
-          "type": "uint256"
-        }
-      ],
-      "payable": false,
-      "type": "function",
-      "stateMutability": "nonpayable"
-    }
-  ],
-  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820b38b8a2ec5a7ba194c5f850bb7d42526ffac5be674a3310bf0f78c9ad249ede80029",
-  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820b38b8a2ec5a7ba194c5f850bb7d42526ffac5be674a3310bf0f78c9ad249ede80029",
+  "abi": [],
+  "bytecode": "0x60606040523415600e57600080fd5b603580601b6000396000f3006060604052600080fd00a165627a7a72305820c4ee932d141ebe4e3828698bd0e7145f6b6a5b148d5dda23781825d4190313e10029",
+  "deployedBytecode": "0x6060604052600080fd00a165627a7a72305820c4ee932d141ebe4e3828698bd0e7145f6b6a5b148d5dda23781825d4190313e10029",
   "sourceMap": "26:158:0:-;;;;;;;;;;;;;;;;;",
   "deployedSourceMap": "26:158:0:-;;;;;",
   "source": "pragma solidity ^0.4.17;\n\nlibrary ConvertLib {\n\tfunction convert(uint amount,uint conversionRate) internal pure returns (uint convertedAmount)\n\t{\n\t\treturn amount * conversionRate;\n\t}\n}\n",
@@ -265,54 +241,12 @@
     "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
   "networks": {
-    "50": {
+    "1509549093251": {
       "events": {},
       "links": {},
-      "address": "0xa14dbf9a5a2853e9eda3915df65d2bc809035398",
-      "updated_at": 1499728460859
-    },
-    "4447": {
-      "events": {},
-      "links": {},
-      "address": "0xce33f6257e24958ffc018076befd1893f762f68c"
-    },
-    "1501102914537": {
-      "events": {},
-      "links": {},
-      "address": "0x257af874530cc85056e867173ed9f0e4d098428e",
-      "updated_at": 1501266191656
-    },
-    "1501273616372": {
-      "events": {},
-      "links": {},
-      "address": "0x7194ca014f87d45cc99428d0fe5512bd9c185124",
-      "updated_at": 1501273630060
-    },
-    "1509421856732": {
-      "events": {},
-      "links": {},
-      "address": "0xcd14ee8444cb794e93147a99193f9e5fc74db310",
-      "updated_at": 1509421879134
-    },
-    "1509421957380": {
-      "events": {},
-      "links": {},
-      "address": "0xf5ceee3c38a72b93c0aeada5a2e81522bf79b5ec",
-      "updated_at": 1509421964438
-    },
-    "1509422308299": {
-      "events": {},
-      "links": {},
-      "address": "0x34890590c327ca3429f2c72f1cf5976da4e6a866",
-      "updated_at": 1509422424103
-    },
-    "1509423381318": {
-      "events": {},
-      "links": {},
-      "address": "0x1a04818e440eddceb0a2dee6036e763bf12f509e",
-      "updated_at": 1509423390519
+      "address": "0x388925f0776a184a32414c3c357ea79bbd10b822"
     }
   },
   "schemaVersion": "1.0.1",
-  "updatedAt": "2017-11-01T12:18:15.694Z"
+  "updatedAt": "2017-11-01T15:12:05.215Z"
 }

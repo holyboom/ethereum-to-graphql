@@ -7,7 +7,7 @@ const render = html => (document.getElementById('root').innerHTML = html)
 render('<p>loading...</p>')
 
 // Web3
-this.web3Provider = new Web3.providers.HttpProvider('http://localhost:9545')
+this.web3Provider = new Web3.providers.HttpProvider('http://localhost:8545')
 this.web3 = new Web3(this.web3Provider)
 
 this.state = {

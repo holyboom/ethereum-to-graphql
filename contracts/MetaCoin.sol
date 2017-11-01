@@ -47,7 +47,7 @@ contract MetaCoin {
 		return ("hey", 0x11, 600);
 	}
 
-  function bar (int baz) public pure returns (int) {
-    return baz*3;
+  function foo (int bar) public pure returns (int) {
+    return bar*3;
   }
 }
