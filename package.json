@@ -4,12 +4,12 @@
   "description": "Create a graphql server to Ethereum smart contracts",
   "main": "lib/index.js",
   "scripts": {
-    "build": "truffle compile",
-    "deploy": "truffle migrate",
+    "build": "truffle compile --all",
+    "deploy": "truffle migrate --reset",
     "server": "cd ./examples/server && npm install && npm start",
     "client": "cd ./examples/client/vanilla && yarn install && yarn start",
     "client-react": "cd ./examples/client/react && yarn install && yarn start",
-    "test": "jest"
+    "test": "jest --watchAll"
   },
   "keywords": [
     "ethereum",

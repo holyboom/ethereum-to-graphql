@@ -87,7 +87,7 @@ it('should succesfully query other with multiple outputs', async () => {
   })
 })
 
-it.skip('should succesfully query returns2 with multiple inputs/outputs', async () => {
+it('should succesfully query returns2 with multiple inputs/outputs', async () => {
   const query = `
   query {
     returns2(addr: "0x7b2c6c6e9026bcef8df4df3ff888b72b018f0e8d" num: 1) {
