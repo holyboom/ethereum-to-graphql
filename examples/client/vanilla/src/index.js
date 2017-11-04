@@ -10,17 +10,13 @@ render('<p>loading...</p>')
 this.web3Provider = new Web3.providers.HttpProvider('http://localhost:8545')
 this.web3 = new Web3(this.web3Provider)
 
-this.state = {
-  coinbase: this.web3.eth.coinbase
-}
-
 // We'll make request to this endpoint
 const uri = 'http://localhost:4000/graphql'
 
 // With this query
 const query = `
     {
-      getBalanceInEth(addr: "0x47adc0faa4f6eb42b499187317949ed99e77ee85") {
+      getBalanceInEth(addr: "${this.web3.eth.coinbase}") {
         value {
           string
         }
